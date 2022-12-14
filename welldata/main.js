@@ -12,7 +12,7 @@ function loadWell(){
         }
     };
 
-    xhr.open("GET", "/welldata/welldata.xml", true);
+    xhr.open("GET", "/FinalProject/welldata/welldata.xml", true);
     xhr.send();
      
 }
@@ -114,7 +114,7 @@ function loadProduction(wellname){
         }
     };
 
-    xhr.open("GET", "/welldata/productiondata.xml", true);
+    xhr.open("GET", "/FinalProject/welldata/productiondata.xml", true);
     xhr.send();
 }
 

@@ -14,7 +14,7 @@ function loadQuiz(){
         }
     };
 
-    xhr.open("GET", "/quiz/FinalQuiz.xml", true);
+    xhr.open("GET", "/FinalProject/quiz/FinalQuiz.xml", true);
     xhr.send();
      
 }
