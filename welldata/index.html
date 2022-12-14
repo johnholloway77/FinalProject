@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Well Data</title>
+</head>
+
+
+<body onload="loadWell(); return false">
+    
+    <div class="header">
+        <h1>Alberta Township Oilwell Database</h1>
+
+        <h3>Enter the a well location to search the database:</h3>
+
+        <div id="wellSearchBox">
+            <input type="text" placeholder="B15-98-17-W5" id="searchText">
+            <input type="button" value="Search" id="searchButton" onclick="searchWell();">&nbsp&nbsp<input type="button" value="Reset Search" id="resetButton" onclick="resetSearch();return false;">
+        </div>
+    </div>
+    
+    
+    <div class="main">
+        <span id="resultInfo"></span>
+        <span id="searchResults"></span>
+        <span id='productionTextField'></span>
+    </div>
+     
+    
+    <div class="footer">
+        
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>

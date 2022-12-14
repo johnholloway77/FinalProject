@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+
+    
+    <title>City of Calgary Datasets</title>
+</head>
+
+
+<body>
+    
+    <div class="header">
+
+        <h1>City of Calgary Datasets</h1>
+
+    </div>
+    
+    
+    <div class="main">
+    
+        <h3>Select Desired Dataset</h3>
+        <div class="selectButtons">
+            <input type="button" value="Parks Monuments" id="parksMonuments" onclick="loadParks();return false;">
+            <input type="button" value="Road Construction Projects Map" id="roadConstruction" onclick="loadRoads();return false;">
+            <input type="button" value="Plus 15 Bridges" id="plus15" onclick="loadPlus();return false;">
+            <input type="button" value="Park Sport Grouping Areas" id="parkSportGrouping" onclick="loadSports();return false;">
+        </div>
+
+        <br>
+
+        <span id="recordsDisplay"></span>
+
+
+    </div>
+     
+    
+    <div class="footer">
+    
+    </div>
+
+
+    <script src="/datasets/records/roadData.js"></script>
+    <script src="/datasets/records/parksData.js"></script>
+    <script src="/datasets/records/plus15Data.js"></script>
+    <script src="/datasets/records/parkSport.js"></script>
+    <script src="main.js"></script>    
+
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-image: url(pictures/background.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    align-content: center;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 3vw;
+    margin-left: auto; 
+   margin-right: auto;
+   margin-top: 2vh;
+   margin-bottom: 2vh;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    flex: 1;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    width: 100%;
+    text-align: center;
+    font-size: 1.4vw;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4{
+    margin-left: auto; 
+   margin-right: auto;
+   margin-top: 2vh;
+   margin-bottom: 2vh;
+   font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    flex: 1;
+    align-content: center;
+}
+
+.main{
+    width:80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    justify-content: center;
+}
+
+.noResultsText{
+    width:fit-content;
+    margin: auto;
+    align-items: left;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#exampleTable tr td{
+text-align: center;
+align-self: left;
+width:fit-content;
+}
+
+table{
+    width: fit-content;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+
+h4{
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+#wellSearchBox{
+   margin-left: auto; 
+   margin-right: auto;
+   margin-top: 2vh;
+   margin-bottom: 2vh;
+   width: fit-content;
+}
+
+.wellnameTable{
+    border: 1px solid black;
+    width: 60vw;
+}
+
+.wellnameTable th{
+    background-color: rgb(226, 238, 241);
+    border-bottom: 2px solid black;
+}
+
+.wellnameTable tr td:nth-child(odd) {
+    background-color: rgb(243, 229, 229);
+    text-align: center;
+}
+.wellnameTable tr td:nth-child(even) {
+    background: #c4d8df;
+    text-align: center;
+  }
+
+  .wellnameTable :hover{
+    cursor: pointer;
+  }
+
+
+
+  .singleWellTable{
+    border: 1px solid black;
+    width: 60vw;
+}
+
+.singleWellTable th{
+    background-color: rgb(226, 238, 241);
+    border-bottom: 2px solid black;
+}
+
+.singleWellTable tr td:nth-child(odd) {
+    background-color: rgb(243, 229, 229);
+    text-align: center;
+}
+.singleWellTable tr td:nth-child(even) {
+    background: #c4d8df;
+    text-align: center;
+  }
+
+
+
+
+  .productionWellTable{
+    border: 1px solid black;
+    width: 60vw;
+}
+
+.productionWellTable th{
+    background-color: rgb(226, 238, 241);
+    border-bottom: 2px solid black;
+}
+
+.productionWellTable tr td:nth-child(odd) {
+    background-color: rgb(243, 229, 229);
+    text-align: center;
+}
+.productionWellTable tr td:nth-child(even) {
+    background: #c4d8df;
+    text-align: center;
+  }

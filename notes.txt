@@ -1,0 +1,27 @@
+Parks Monuments:
+https://data.calgary.ca/Recreation-and-Culture/Parks-Monuments/abmn-5hw9
+data:
+https://data.calgary.ca/resource/hh57-r3mr.json
+
+
+
+Road Construction Projects map
+
+https://data.calgary.ca/Transportation-Transit/Road-Construction-Projects-map/kjkw-394k
+
+https://data.calgary.ca/resource/sizs-hgef.json
+
+
+
+
+Plus 15 Bridges
+https://data.calgary.ca/Transportation-Transit/Plus-15-Bridges/5m8t-ar4t
+
+https://data.calgary.ca/resource/fu7z-c7ar.json
+
+Parks Sport Grouping Areas
+https://data.calgary.ca/Recreation-and-Culture/Parks-Sport-Grouping-Areas/hy8d-xjzc
+https://data.calgary.ca/resource/xwq2-js5v.json
+
+
+https://www.google.com/maps/search/?api=1&query=[LATITUDE]%2C[LONGITUDE]

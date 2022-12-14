@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(background.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+
+}
+
+.main {
+    color: white;
+    display: flex;
+    align-content: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 5.6vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 4px blue, 1px 1px 16px black;
+}
+
+h2{
+    
+    text-align: center;
+    font-size: 3vw;
+}
+
+h3{
+    text-align: center;
+    font-size: 2vw;
+    text-shadow: 1px 1px 2px blue, 1px 1px 8px black;
+}
+
+.selectButtons{
+    flex-direction: row;
+}
+
+.searchTable input[type=text]{
+    border-radius: 5px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 2.5px solid black;
+    border-bottom: 3px solid black;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.8vw;
+}
+
+.story{
+    text-align: left;
+
+}
+
+.searchTable table{
+    width:fit-content;
+    align-self: center;
+    margin: auto;
+}
+
+.searchTable th{
+    color: white;
+    font-size: 1.2vw;
+    text-shadow: 1px 1px 4px blue, 1px 1px 8px black;
+}
+
+.searchTable th, .searchTable tr , .searchTable tr{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    cursor: default;
+    border-collapse: collapse;
+    align-content: center;
+    
+}
+
+
+#parksTable, #parksSportsTable, #plus15Table, #roadTable{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3pw;
+    border-collapse: collapse;
+    width: 80vw;
+}
+
+#parksTable tr:nth-child(even), #parksSportsTable tr:nth-child(even), #plus15Table tr:nth-child(even), #roadTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+    height: 3vh;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: none;
+    border-top: none;
+}
+
+#parksTable tr:nth-child(odd), #parksSportsTable tr:nth-child(odd), #plus15Table tr:nth-child(odd), #roadTable tr:nth-child(odd)  {
+    background-color: rgb(199, 184, 184);
+    height: 3vh;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: none 0px;
+    border-top: none;
+}
+
+
+#parksTable th, #parksSportsTable th, #plus15Table th, #roadTable th{
+    background-color: lightgray;
+    height: 4vh;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black; 
+    border-top: 1px solid black;
+    border-left: 0.5px solid black;
+    border-radius: 10px;
+    cursor: pointer; 
+    min-width: 8vw;
+    
+};
+
+
+
+
+

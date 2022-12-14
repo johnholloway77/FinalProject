@@ -1,0 +1,32 @@
+
+    <body>
+        <div class="main">
+            <table class="searchTable">
+                <tr>
+                    <th>Bridge Name</th>
+                    <th>Bridge Location</th>
+                    <th>Connection Type</th>
+                    <th>Street Location</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <!-- add onKeyUp to the input because parksData.js cannot find these elements after importing them via JSON -->
+                    <td><input type="text" id="Bridge Name" onkeyup="searchBridgeName(this.value);return false;"></td>
+                    <td><input type="text" id="Location" onkeyup="searchLocation(this.value); return false;"></td>
+                    <td><input type="text" id="Connection Type" onkeyup="searchConnectionType(this.value);"></td>
+                    <td><input type="text" id="Street Location" onkeyup="searchStreet(this.value);return false;"></td>
+                    <td><input type="text" id="Status" onkeyup="searchStatus(this.value); return false;"></td>
+                </tr>
+            </table>
+                
+                <span id="descriptionText"></span>
+                
+                <table id="plus15Table">
+            <tr><td>Please use the search functions to search the City of Calgary Plus 15 Data</td></tr>
+                
+                </table>
+        </div>
+    
+    <script src="/datasets/records/plus15Data.js"></script>
+    <script src="main.js"></script>
+    </body>

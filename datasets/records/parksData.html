@@ -1,0 +1,32 @@
+
+    <body>
+        <div class="main">
+            <table class="searchTable">
+                <tr>
+                    <th>Steward</th>
+                    <th>Maintained By</th>
+                    <th>Asset Type</th>
+                    <th>Dedicated To</th>
+                    <th>Monument Name</th>
+                </tr>
+                <tr>
+                    <!-- add onKeyUp to the input because parksData.js cannot find these elements after importing them via JSON -->
+                    <td><input type="text" id="steward" onkeyup="searchSteward(this.value);return false;"></td>
+                    <td><input type="text" id="maintainedBy" onkeyup="searchMaintained(this.value); return false;"></td>
+                    <td><input type="text" id="assetType" onkeyup="searchAsset(this.value);"></td>
+                    <td><input type="text" id="dedicatedTo" onkeyup="searchedDedicated(this.value);return false;"></td>
+                    <td><input type="text" id="monumentName" onkeyup="searchMonument(this.value); return false;"></td>
+                </tr>
+            </table>
+                
+                <span id="descriptionText"></span>
+                <table id="parksTable">
+            <tr><td>Please use the search functions to search the City of Calgary Parks Monuments</td></tr>
+                
+                </table>
+        </div>
+    
+    <script src="/datasets/records/parksData.js"></script>
+
+    <script src="/datasets/main.js"></script>
+    </body>

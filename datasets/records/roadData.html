@@ -1,0 +1,32 @@
+
+    <div class="main">
+        <body>
+            <table class="searchTable">
+                <tr>
+                    <th>Title</th>
+                    <th>Budget</th>
+                    <th>Description</th>
+                    <th>Completion</th>
+        
+                </tr>
+                <tr>
+                    <!-- add onKeyUp to the input because parksData.js cannot find these elements after importing them via JSON -->
+                    <td><input type="text" id="title" onkeyup="roadTitleSearch(this.value);return false;"></td>
+                    <td><input type="text" id="budget" onkeyup="roadBudgetSearch(this.value); return false;"></td>
+                    <td><input type="text" id="description" onkeyup="roadDescriptionSearch(this.value);"></td>
+                    <td><input type="text" id="completion" onkeyup="roadCompletionSearch(this.value);return false;"></td>
+        
+                </tr>
+            </table>
+        
+        <span id="descriptionText"></span>
+        <table id="roadTable">
+            <tr><td>Please use the search functions to search the City of Calgary road construction</td></tr>
+        
+        </table>
+    </div>
+    
+    
+    <script src="/datasets/records/roadData.js"></script>
+    <script src="/datasets/main.js"></script>
+    </body>
