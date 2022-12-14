@@ -8,7 +8,7 @@ function loadParks(){
         }
     };
 
-    xhr.open("GET", "/datasets/records/parksData.html", true);
+    xhr.open("GET", "/FinalProject/datasets/records/parksData.html", true);
     xhr.send();
     loadParkData();
     
@@ -25,7 +25,7 @@ function loadRoads(){
         }
     };
 
-    xhr.open("GET", "/datasets/records/roadData.html", true);
+    xhr.open("GET", "/FinalProject/datasets/records/roadData.html", true);
     xhr.send();
     loadRoadData();
 };
@@ -41,7 +41,7 @@ function loadPlus(){
         }
     };
 
-    xhr.open("GET", "/datasets/records/plus15Data.html", true);
+    xhr.open("GET", "/FinalProject/datasets/records/plus15Data.html", true);
     xhr.send();
     loadPlus15Data();
 };
@@ -58,7 +58,7 @@ function loadSports(){
         }
     };
 
-    xhr.open("GET", "/datasets/records/parkSport.html", true);
+    xhr.open("GET", "/FinalProject/datasets/records/parkSport.html", true);
     xhr.send();
     loadParkSport();
 };
